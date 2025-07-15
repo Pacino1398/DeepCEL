@@ -1,3 +1,9 @@
+'''
+Paicno
+Sp algorithm after interpolation processing
+To support subsequent analysis and evaluation
+The code is in the process of being organized...
+'''
 import argparse
 import glob
 import numpy as np
@@ -443,3 +449,8 @@ if __name__ == '__main__':
 
     cv2.waitKey(0)
     print('Finshed')
+
+# This file includes code adapted from the SuperPoint project:
+# https://github.com/rpautrat/SuperPoint
+# Original author: Rémi Pautrat
+# License: MIT License
